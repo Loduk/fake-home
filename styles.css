@@ -6,12 +6,9 @@
 
 body{
     padding: 15px 15px;
-    background: rgb(30,87,153);
-background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(32,124,202,1) 37%, rgba(32,124,202,1) 37%, rgba(41,137,216,1) 50%, rgba(125,185,232,1) 100%);
-background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 37%,rgba(32,124,202,1) 37%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%);
-background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 37%,rgba(32,124,202,1) 37%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
-    background-repeat: repeat;
+    
+    background-color: hsl(65, 91%, 84%);
+    background-repeat: no-repeat;
 }
 
 .main{
@@ -19,9 +16,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     height: 300px;
     margin-top: 10px;
     background-color: rgb(157, 156, 147);
+    border-radius: 5px;
     color: rgb(28, 28, 28);
 }
 
+/* ik vergeet altijd de -px- bij :)) */
 .section-1{
     margin-top: 20px;
     border: 1px solid red;
